@@ -1,7 +1,7 @@
 
 public class FizzBuzz {
     static boolean limitNumber(int number){
-        return number >= 0 || number < 100;
+        return number > 0 && number < 100;
     }
     static String checkFizzBuzz(int number){
         if (limitNumber(number)){
