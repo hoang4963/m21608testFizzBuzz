@@ -26,7 +26,7 @@ public class FizzBuzz {
             case 7 -> "bay";
             case 8 -> "tam";
             case 9 -> "chin";
-            case 0 -> "khong";
+            case 0 -> "muoi";
             default -> "sai";
         };
     }
